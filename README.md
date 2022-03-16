@@ -1,5 +1,5 @@
 # Bounding-Boxes
-This program compute a minimum-sized axis-aligned bounding box (AABB) for a set of input 2D geometries. An AABB is a rectangle with sides parallel to the x-, y-axes which encloses some given geometries.
+This program has 2 parts. The first part (1.cpp) computes a minimum-sized axis-aligned bounding box (AABB) for a set of input 2D geometries. An AABB is a rectangle with sides parallel to the x-, y-axes which encloses some given geometries. The second part (2.cpp) computes the axis-aligned boungind boxes (AABBs) for each of the input 2D geometries, and also identify the isolated AABBs which do not overlap with any other AABBs.
 
 ### 4 types of input: 
 ##### 1. R x y w h
@@ -11,7 +11,12 @@ P means it is a point, with n points going to be inputted. x and y mean the corr
 ##### 4. #
 This indicates the end of the input.
 
-### Output: x y w h
-x and y are the coordinates of the center of the minimum-sized AABB, w and h show the size of the AABB.
+### 2 types of output 
+##### 1. x y w h
+This is for part 1. x and y are the coordinates of the center of the minimum-sized AABB, w and h show the size of the AABB.
+##### 2. AABB **: xmin xmax ymin ymax
+This is for part 2. For each of the input geometries, ** is a 2-digit ID (left padded with zeros) indicating which geometry this AABB corresponds to and display in order.
+##### 3. Isolated AABBs: 
+This is also for part 2. This outputs follows after output 2 and followed by the ID of the isolated AABBs on each subsequent line, in increasing order of the IDs.
 
 FYI: This is a course assignment.
