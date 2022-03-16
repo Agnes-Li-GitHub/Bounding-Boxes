@@ -8,7 +8,7 @@ R means it is a retangle, with x and y representing the corrdinates of the centr
 C means it is a circle, with x and y representing the corrdinates of the centre. r means the radius of the input circle. This type of input is using the function CircleBB().
 ##### 3. P n x1 y1 x2 y2 ...
 P means it is a point, with n points going to be inputted. x and y mean the corrdinates of the points. This type of input is using the function PointSetBB().
-##### 4. #
+##### 4. # Exit
 This indicates the end of the input.
 
 ### 2 types of output 
