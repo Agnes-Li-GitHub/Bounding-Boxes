@@ -18,5 +18,3 @@ This is for part 1. x and y are the coordinates of the center of the minimum-siz
 This is for part 2. For each of the input geometries, ** is a 2-digit ID (left padded with zeros) indicating which geometry this AABB corresponds to and display in order.
 ##### 3. Isolated AABBs: 
 This is also for part 2. This outputs follows after output 2 and followed by the ID of the isolated AABBs on each subsequent line, in increasing order of the IDs.
-
-FYI: This is a course assignment.
